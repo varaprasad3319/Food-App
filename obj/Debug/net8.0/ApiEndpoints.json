@@ -1,0 +1,486 @@
+[
+  {
+    "ContainingType": "WebApiExapmple.Controllers.AuthenticationController",
+    "Method": "Login",
+    "RelativePath": "api/Authentication/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "FoodBooking4.Models.LoginDto.Login",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApiExapmple.Controllers.AuthenticationController",
+    "Method": "RegisterAdmin",
+    "RelativePath": "api/Authentication/register-Admin",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "FoodBooking4.Models.NewFolder.RegisterAdmin",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApiExapmple.Controllers.AuthenticationController",
+    "Method": "RegisterUser",
+    "RelativePath": "api/Authentication/register-User",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "FoodBooking4.Models.NewFolder.RegisterUser",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FoodBooking4.Controllers.CombosandItemsController",
+    "Method": "AddComboorItemAsync",
+    "RelativePath": "api/CombosandItems/Add combo",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "combosandItems",
+        "Type": "FoodBooking4.Models.CombosandItems",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FoodBooking4.Controllers.CombosandItemsController",
+    "Method": "GetAllComboorItem",
+    "RelativePath": "api/CombosandItems/All Combo",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FoodBooking4.Controllers.CombosandItemsController",
+    "Method": "RemoveComboorItemAsync",
+    "RelativePath": "api/CombosandItems/Del Combo",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FoodBooking4.Controllers.CombosandItemsController",
+    "Method": "GetAllComboListItemsById",
+    "RelativePath": "api/CombosandItems/GetAllComboListItemsById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[FoodBooking4.Models.ListOfComboItems, FoodBooking4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "FoodBooking4.Controllers.CombosandItemsController",
+    "Method": "UpdateComboorItemAsync",
+    "RelativePath": "api/CombosandItems/Update Combo",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "combosandItems",
+        "Type": "FoodBooking4.Models.CombosandItems",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FoodBooking4.Controllers.FloorController",
+    "Method": "AddFloorsAsync",
+    "RelativePath": "api/Floor/Add Floor",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "floor",
+        "Type": "FoodBooking4.Models.Floor",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FoodBooking4.Controllers.FloorController",
+    "Method": "GetAllFloors",
+    "RelativePath": "api/Floor/All Floor",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FoodBooking4.Controllers.FloorController",
+    "Method": "RemoveFloorsAsync",
+    "RelativePath": "api/Floor/Del Floor",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FoodBooking4.Controllers.FloorController",
+    "Method": "UpdateFloorsAsync",
+    "RelativePath": "api/Floor/Update Floor",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "floor",
+        "Type": "FoodBooking4.Models.Floor",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FoodBooking4.Controllers.FoodCourtController",
+    "Method": "AddFoodCourtAsync",
+    "RelativePath": "api/FoodCourt/Add FC",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "foodCourt",
+        "Type": "FoodBooking4.Models.FoodCourt",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FoodBooking4.Controllers.FoodCourtController",
+    "Method": "GetAllFoodCourts",
+    "RelativePath": "api/FoodCourt/All FC",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FoodBooking4.Controllers.FoodCourtController",
+    "Method": "RemoveFoodCourtAsync",
+    "RelativePath": "api/FoodCourt/Delete FC",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FoodBooking4.Controllers.FoodCourtController",
+    "Method": "UpdateFoodCourtAsync",
+    "RelativePath": "api/FoodCourt/UpdateFC",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "foodCourt",
+        "Type": "FoodBooking4.Models.FoodCourt",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FoodBooking4.Controllers.ListOfComboItemsController",
+    "Method": "AddIteminComboAsync",
+    "RelativePath": "api/ListOfComboItems/Add items",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "listOfComboItems",
+        "Type": "FoodBooking4.Models.ListOfComboItems",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FoodBooking4.Controllers.ListOfComboItemsController",
+    "Method": "GetAllIteminCombo",
+    "RelativePath": "api/ListOfComboItems/All items",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FoodBooking4.Controllers.ListOfComboItemsController",
+    "Method": "RemoveIteminComboAsync",
+    "RelativePath": "api/ListOfComboItems/Del items",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FoodBooking4.Controllers.ListOfComboItemsController",
+    "Method": "UpdateIteminComboAsync",
+    "RelativePath": "api/ListOfComboItems/Update items",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "listOfComboItems",
+        "Type": "FoodBooking4.Models.ListOfComboItems",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FoodBooking4.Controllers.OrderItemsController",
+    "Method": "AddOrderItemAsync",
+    "RelativePath": "api/OrderItems/Add orderitem",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "orderItem",
+        "Type": "FoodBooking4.Models.LoginDto.OrderItemDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FoodBooking4.Controllers.OrderItemsController",
+    "Method": "GetAllOrderItems",
+    "RelativePath": "api/OrderItems/All orderitems",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FoodBooking4.Controllers.OrderItemsController",
+    "Method": "RemoveOrderItemAsync",
+    "RelativePath": "api/OrderItems/Del Res",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FoodBooking4.Controllers.OrdersController",
+    "Method": "AddOrdersAsync",
+    "RelativePath": "api/Orders/Add order",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ordersDto",
+        "Type": "FoodBooking4.Models.LoginDto.OrdersDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FoodBooking4.Controllers.OrdersController",
+    "Method": "GetAllComboorItem",
+    "RelativePath": "api/Orders/All Combo",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FoodBooking4.Controllers.OrdersController",
+    "Method": "GetAllOrders",
+    "RelativePath": "api/Orders/All orders",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FoodBooking4.Controllers.OrdersController",
+    "Method": "RemoveOrderAsync",
+    "RelativePath": "api/Orders/Del Res",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FoodBooking4.Controllers.OrdersController",
+    "Method": "GetOrderById",
+    "RelativePath": "api/Orders/GetAllOrdersByID",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "FoodBooking4.Models.Orders",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "FoodBooking4.Controllers.RestaurantController",
+    "Method": "AddResAsync",
+    "RelativePath": "api/Restaurant/Add res",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "restaurant",
+        "Type": "FoodBooking4.Models.Restaurant",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FoodBooking4.Controllers.RestaurantController",
+    "Method": "GetAllRes",
+    "RelativePath": "api/Restaurant/All res",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FoodBooking4.Controllers.RestaurantController",
+    "Method": "RemoveResAsync",
+    "RelativePath": "api/Restaurant/Del Res",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FoodBooking4.Controllers.RestaurantController",
+    "Method": "UpdateResAsync",
+    "RelativePath": "api/Restaurant/Update Res",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "restaurant",
+        "Type": "FoodBooking4.Models.Restaurant",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

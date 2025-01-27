@@ -1,0 +1,8 @@
+﻿namespace FoodBooking4.Models.LoginDto
+{
+    public class UserRoles
+    {
+        public const string Admin = "Admin";
+        public const string User = "User";
+    }
+}
